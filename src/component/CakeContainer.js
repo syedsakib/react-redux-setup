@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { buyCake } from '../redux/cake/cakeActions';
 
+// React Class-Based Component:
+
 const CakeContainer = ({ cake, buyCake }) => {
   return (
     <div>
